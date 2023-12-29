@@ -1,0 +1,60 @@
+.toggle-btn{
+    margin: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.view{
+    margin: 0.5em;
+    font-size: large;
+    padding: 0.5em;
+    background-color: bisque;
+    width: fit-content;
+    font-weight: 700;
+}
+.list{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items:center;
+}
+
+.list-button{
+    width: 40%;
+    height: fit-content;
+    /* background-color: rgb(26, 120, 203); */
+    margin: 1em;
+    padding: 1em;
+    text-align: left;
+    border-radius: 25%;
+    font-size: large;
+    border: rgb(27 128 205) solid;
+    font-weight: 700;
+}
+
+.grid-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.grid {
+    display: grid;
+    /* grid: repeat(2, 60px) / auto-flow 80px; */
+    grid-template-columns: repeat(4,340px);
+    
+  }
+  
+  .grid > button {
+    width: 300px;
+    height: 300px;
+    overflow:hidden;
+    border-width: 1em;
+    border-style: solid;
+    border-color: #bec2b1;
+    margin: 1em;
+    font-size: large;
+    font-weight: 600;
+  }

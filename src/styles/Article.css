@@ -1,0 +1,35 @@
+.article{
+    /* padding: 1em; */
+    /* margin: 1em; */
+    margin-right: 15em;
+}
+
+h3{
+    color: #891ed2;
+    padding: 1em;
+    margin: 1em;
+    text-decoration: underline;
+}
+
+.desc{
+    margin-bottom: 2em;
+    color: #da0f7f;
+    font-size: large;
+}
+
+img{
+    width: 50%;
+    height: 40%;
+    margin: 1.4em;
+}
+
+.fav-item{
+    position: absolute;
+    top: 20%;
+    right: 3%;
+}
+
+.fav{
+    color: #81ed64;
+}
+

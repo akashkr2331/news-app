@@ -1,0 +1,61 @@
+.main-nav{
+    display: flex;
+    display: flex;
+    margin-top: 1em;
+    margin-left: 1em;
+    background-color: cadetblue;
+    margin-right: 1em;
+    padding: 1em;
+    justify-content: space-around;
+    border: solid;
+}
+
+.nav-header-btn{
+    text-decoration: none;
+    font-size: larger;
+    font-weight: 600;
+    color: #1f0ee5;
+    background-color: cadetblue;
+    border: none;
+
+}
+
+.home-btn{
+    text-decoration: none;
+    font-size: larger;
+    font-weight: 600;
+    color: #82e50e;
+    background-color: cadetblue;
+    border: none;
+}
+
+.profile-btn{
+    text-decoration: none;
+    font-size: larger;
+    font-weight: 600;
+    color: #82e50e;
+    background-color: cadetblue;
+    border: none;
+}
+
+.sign-in-btn{
+    text-decoration: none;
+    font-size: larger;
+    font-weight: 600;
+    color: #bdd32a;
+    background-color: cadetblue;
+    border: none;
+}
+
+.sign-out-btn{
+    text-decoration: none;
+    font-size: larger;
+    font-weight: 600;
+    color: #982e08;
+    background-color: cadetblue;
+    border: none;
+}
+
+.profile-btn,.home-btn,.nav-header-btn,.sign-out-btn,.sign-in-btn:hover {
+    cursor: pointer;
+}
